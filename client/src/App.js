@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import loginWithFacebook from './img/loginWithFacebook.png';
+import AppNavbar from './components/AppNavbar.js';
 import Auth from '../src/utils/autho';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppNavbar from './components/AppNavbar.js';
+
 
 const auth = new Auth();
 
