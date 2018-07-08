@@ -21,8 +21,34 @@
 .App-intro {
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+ .fblogin{
+   
+   background: url('img/loginWithFacebook.png') no-repeat;
+   height:38px;
+   width: 260px;
+   
+ }
+ .btnlogout{
+   height: 46px;
+   width: 150px;
+ }
+ .logincard{
+  margin: 0 10% 0 10%;
+ }
+ .cardfb{
+   text-align: center;
+   margin: auto;
+  position: relative;
+ }
+ .login{
+  background-size: cover;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+ }
+ .glogin{
+  height:46px;
+  width: 191px;
+   background: url('img/googlebtn1x.png') no-repeat;
+ }
