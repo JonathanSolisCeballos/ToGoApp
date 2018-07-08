@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
-import togologo from '../img/togologo.jpg';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  Container
-} from 'reactstrap';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 class AppNavbar extends Component {
   state = {
@@ -25,21 +16,24 @@ class AppNavbar extends Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="sm" className="mb-5">
-          <Container>
-            <NavbarBrand href="/"><img alt="logo" src={togologo}/></NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink href="https://github.com/JonathanSolisCeballos">
-                    Github
-                  </NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </Container>
-        </Navbar>
+        <section id="inicio">
+        <nav className="orange lighten-1">
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                <ul className="right hide-on-med-and-down">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#quienessomos">¿Quiénes somos?</a></li>
+                    <li><a href="#masinfo">Más información</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+        </nav>
+
+        <ul className="sidenav" id="mobile-demo" id="sidenav">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#quienessomos">¿Quiénes somos?</a></li>
+            <li><a href="#masinfo"></a>Más información</li>
+            <li><a href="#">Iniciar Sesión</a></li>
+        </ul>
+    </section>
       </div>
     );
   }
