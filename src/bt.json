@@ -1,0 +1,67 @@
+{
+    "todos": [{
+            "product": "BANANA TEMPURA",
+            "company": "La Barra del Teriyaky",
+            "description": "Plátano capeado relleno con queso philadelphia, bañado con crema chantillí y chocolate",
+            "price": "60",
+            "total": "0"
+        },
+        {
+            "product": "SUNOMONO",
+            "company": "La Barra del Teriyaky",
+            "description": "Bowl de arroz de sushi, alga, atún, salmón, pescado, camarón, kanikama y massago acompañado con aguacate.",
+            "price": "174",
+            "total": "0"
+        },
+        {
+            "product": "PAELLA JAPONESA",
+            "company": "La Barra del Teriyaky",
+            "description": "Arroz, verdura rallada, camarón, carne de res, pollo, pescado y especias. Excelente para dos personas c:",
+            "price": "229",
+            "total": "0"
+        },
+        {
+            "product": "TORIKATSU",
+            "company": "La Barra del Teriyaky",
+            "description": "Pollo empanizado relleno de verduras a la plancha, queso manchego, con nuestra deliciosa salsa especial de la casa (Salsa spicy), acompañada con arroz frito.",
+            "price": "119",
+            "total": "0"
+        },
+        {
+            "product": "TERIYAKY",
+            "company": "La Barra del Teriyaky",
+            "description": "Trazos de pollo marinado con nuestra exlusiva salsa teriyaky (agridulce) asado a la plancha, servido sobre una cama de arroz blanco al vapor.",
+            "price": "78",
+            "total": "0"
+        },
+        {
+            "product": "SUSHI ESPECIAL EBY ROLL",
+            "company": "La Barra del Teriyaky",
+            "description": "Queso philadelphia y camarón.",
+            "price": "95",
+            "total": "0"
+        },
+        {
+            "product": "CREPA CON NIEVE",
+            "company": "La Barra del Teriyaky",
+            "description": "Crepa con philadelphia, kiwi y fresa, bañadas con chocolate líquido y lechera.",
+            "price": "59",
+            "total": "0"
+        },
+        {
+            "product": "GYOZAS",
+            "company": "La Barra del Teriyaky",
+            "description": "Empanadas japonesas de camarón y queso philadelphia.",
+            "price": "58",
+            "total": "0"
+        },
+        {
+            "product": "MISOSHIRO",
+            "company": "La Barra del Teriyaky",
+            "description": "Pasa miso, cebollín, champiñón con fideo herusame.",
+            "price": "60",
+            "total": "0"
+        }
+
+    ]
+}

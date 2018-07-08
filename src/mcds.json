@@ -1,0 +1,67 @@
+{
+    "todos": [{
+            "product": "HAMBURGUESA DOBLE CON QUESO",
+            "company": "McDonalds",
+            "description": "Dos jugosas carnes 100% de res acompañadas de queso tipo americano, pepinillos, cebolla, catsup y mostaza en un fresco y esponjadito pan. ¡Quedarás doblemente encantado con su sabor!",
+            "price": "100",
+            "total": "0"
+        },
+        {
+            "product": "CAFÉ",
+            "company": "McDonalds",
+            "description": "Disfruta un fresco y aromático café de clase mundial, orgullosamente mexicano, de la zona Pluma de Oaxaca. Blasón proveé a McDonald's de este delicioso café de exquisito sabor, aroma y gran cuerpo.",
+            "price": "18",
+            "total": "0"
+        },
+        {
+            "product": "BIG MAC",
+            "company": "McDonalds",
+            "description": "Prueba la deliciosa Big Mac de McDonald's Mexico. Dos hamburguesas de pura carne con salsa especial Big Mac y queso derretido.",
+            "price": "180",
+            "total": "0"
+        },
+        {
+            "product": "PAY DE MANZANA O QUESO",
+            "company": "McDonalds",
+            "description": "Deliciosos trozos de fruta envueltas con una cubierta crujiente para darle un delicioso sabor a tu paladar, todo el tiempo calientitos y listos para disfrutar. Elije tu favorito: manzana o queso",
+            "price": "18",
+            "total": "0"
+        },
+        {
+            "product": "MCFLURRY OREO",
+            "company": "McDonalds",
+            "description": "Si las galletas Oreo te gustan por sí solas ¡imagínate acompañarlas con nuestra deliciosa mezcla de helado 100% de leche!",
+            "price": "27",
+            "total": "0"
+        },
+        {
+            "product": "COCA-COLA",
+            "company": "McDonalds",
+            "description": "Diversión contra la sed. Preparate para vencer la sed con una bebida helada.",
+            "price": "18",
+            "total": "0"
+        },
+        {
+            "product": "MCPATATAS",
+            "company": "McDonalds",
+            "description": "Deliciosas papas 100% naturales, cortadas en gajos, crujientes y sazonadas por completo. Las puedes aderezar con nuestra famosa salsa McQueso que les dará un exquisito sabor.",
+            "price": "28",
+            "total": "0"
+        },
+        {
+            "product": "PAPAS A LA FRANCESA",
+            "company": "McDonalds",
+            "description": "Nuestras papas provienen de campos especialmente cultivados para McDonald's, en los que se supervisa su tamaño, consistencia y valor nutricional. Además las preparamos en aceite libre de Ácidos Grasos Trans, a temperaturas reguladas y les añadimos la cantidad exacta de sal que te permite disfrutar de su excelente sabor, convirtiéndolas en una de las preferidas.",
+            "price": "25",
+            "total": "0"
+        },
+        {
+            "product": "MC POLLO",
+            "company": "McDonalds",
+            "description": "Deliciosa pechuga de pollo empanizada, acompañada de lechuga y mayonesa.",
+            "price": "50",
+            "total": "0"
+        }
+
+    ]
+}
