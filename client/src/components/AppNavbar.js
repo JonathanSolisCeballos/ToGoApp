@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import togologo from '../img/togologo.png';
+import togologo from '../img/togologo.jpg';
 import {
   Collapse,
   Navbar,
@@ -27,7 +27,7 @@ class AppNavbar extends Component {
       <div>
         <Navbar color="dark" dark expand="sm" className="mb-5">
           <Container>
-            <NavbarBrand href="/"><img src={togologo}/></NavbarBrand>
+            <NavbarBrand href="/"><img alt="logo" src={togologo}/></NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>

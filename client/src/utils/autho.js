@@ -1,5 +1,4 @@
 import auth0 from 'auth0-js';
-import api from '../utils/apifb';
 
 export default class Auth {
   auth0 = new auth0.WebAuth({
@@ -13,10 +12,9 @@ export default class Auth {
 
   handleAuthentication() {
     this.auth0.parseHash((err, authResult) => {
+      console.log(authResult)
       if (authResult && authResult.accessToken && authResult.idToken) {
         this.setSession(authResult);
-        const userData = api.get('/userinfo').then(res => alert(res));
-        console.log(userData);
       } else if (err) {
         console.log(err);
       }
@@ -33,6 +31,21 @@ export default class Auth {
   }
 
   login() {
-    this.auth0.authorize();
+    return this.auth0.authorize();
+  }
+
+  logout() {
+    // Clear Access Token and ID Token from local storage
+    localStorage.removeItem('access_token');
+    localStorage.removeItem('id_token');
+    localStorage.removeItem('expires_at');  
+    
+  }
+
+  isAuthenticated() {
+    // Check whether the current time is past the 
+    // Access Token's expiry time
+    let expiresAt = JSON.parse(localStorage.getItem('expires_at'));
+    return new Date().getTime() < expiresAt;
   }
 }
