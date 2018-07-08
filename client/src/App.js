@@ -14,24 +14,25 @@ import $ from 'jquery';
 
 class App extends Component {
 
-  componentDidMount(){
-    $(document).ready(function(){
-      $('#fixed-action-btn').floatingActionButton();});
-        $(document).ready(function(){
-            $('.slider').slidenav();
-        });
-        $(document).ready(function(){
-            $('.slider').slider();
-        });
+  // componentDidMount(){
+  //   // $(document).ready(function(){
+  //   //   $('#fixed-action-btn').floatingActionButton();});
+  //   //     $(document).ready(function(){
+  //   //         $('.slider').slidenav();
+  //   //     });
+  //   //     $(document).ready(function(){
+  //   //         $('.slider').slider();
+  //   //     });
       
-      }
+  //   //   }
   
 
   render() {
     return (
       <div className="App">
+
       <AppNavbar />
-      {/* <LogIn /> */}
+       <LogIn />
       <Mainslider />
       <Quienessomos/>
       <Floatingicon />
